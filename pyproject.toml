@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "torchcriterion"
+version = "0.1.0"
+description = "A modular PyTorch loss function library with popular criteria for classification, regression, segmentation, and metric learning."
+authors = [{name = "Your Name", email = "you@example.com"}]
+readme = "README.md"
+license = {text = "MIT"}
+keywords = ["pytorch", "loss", "criterion", "deep learning", "machine learning"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+requires-python = ">=3.7"
+dependencies = ["torch>=2.0"]
+
+[tool.setuptools]
+packages = ["torchcriterion"]
