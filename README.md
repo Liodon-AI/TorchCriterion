@@ -39,6 +39,28 @@ pip install torchcriterion
 - `TripletLoss`
 - `ContrastiveLoss`
 
+## NLP Metrics (new)
+
+Under `torchcriterion.nlp` we provide common NLP evaluation metrics.
+
+Example usage:
+
+```python
+from torchcriterion.nlp.bleu import bleu_score
+from torchcriterion.nlp.rouge import rouge_l_batch
+from torchcriterion.nlp.perplexity import perplexity
+
+preds = ["the cat sat on mat"]
+refs  = ["the cat is on the mat"]
+
+print("BLEU:", bleu_score(preds, refs))
+print("ROUGE-L:", rouge_l_batch(preds, refs))
+
+# LM perplexity example
+logits = model_out  # (batch, seq_len, vocab)
+targets = labels    # (batch, seq_len)
+print("Perplexity:", perplexity(logits, targets))
+
 ---
 
 ## 🧪 Example Usage
