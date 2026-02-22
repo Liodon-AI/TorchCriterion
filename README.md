@@ -1,12 +1,10 @@
-# torchcriterion
+# TorchCriterion
 
 <p align="center">
   <a href="https://github.com/Liodon-AI/TorchCriterion">
     <img src="assets/logo/torchCriterion.jpg" width="750" height="300" alt="TorchCriterion Logo"/>
   </a>
 </p>
-
-# torchcriterion
 
 **torchcriterion** is a modular, extensible library of PyTorch-compatible loss functions ("criteria") for classification, regression, segmentation, and metric learning tasks. It offers a curated collection of both standard and custom loss functions, built with flexibility and composability in mind.
 
