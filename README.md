@@ -1,5 +1,13 @@
 # torchcriterion
 
+<p align="center">
+  <a href="https://github.com/Liodon-AI/TorchCriterion">
+    <img src="assets/logo/torchCriterion.jpg" width="300" alt="TorchCriterion Logo"/>
+  </a>
+</p>
+
+# torchcriterion
+
 **torchcriterion** is a modular, extensible library of PyTorch-compatible loss functions ("criteria") for classification, regression, segmentation, and metric learning tasks. It offers a curated collection of both standard and custom loss functions, built with flexibility and composability in mind.
 
 ---
@@ -39,7 +47,7 @@ pip install torchcriterion
 - `TripletLoss`
 - `ContrastiveLoss`
 
-## NLP Metrics (new)
+### NLP Metrics (new)
 
 Under `torchcriterion.nlp` we provide common NLP evaluation metrics.
 
@@ -90,6 +98,10 @@ torchcriterion/
 ├── metric_learning/
 │   ├── triplet.py
 │   ├── contrastive.py
+├── nlp/
+│   ├── bleu.py
+│   ├── perplexity.py
+│   ├── rouge.py
 ├── base.py
 ├── __init__.py
 ```
