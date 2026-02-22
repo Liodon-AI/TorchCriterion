@@ -71,7 +71,7 @@ print("Perplexity:", perplexity(logits, targets))
 
 ## 🧪 Example Usage
 
-```
+
 python
 from torchcriterion import FocalLoss
 
