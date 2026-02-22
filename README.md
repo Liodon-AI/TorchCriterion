@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://github.com/Liodon-AI/TorchCriterion">
-    <img src="assets/logo/torchCriterion.jpg" width="750" alt="TorchCriterion Logo"/>
+    <img src="assets/logo/torchCriterion.jpg" width="750" height="150" alt="TorchCriterion Logo"/>
   </a>
 </p>
 
