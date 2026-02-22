@@ -66,13 +66,14 @@ print("ROUGE-L:", rouge_l_batch(preds, refs))
 logits = model_out  # (batch, seq_len, vocab)
 targets = labels    # (batch, seq_len)
 print("Perplexity:", perplexity(logits, targets))
+```
 
 ---
 
 ## 🧪 Example Usage
 
 
-python
+```
 from torchcriterion import FocalLoss
 
 criterion = FocalLoss(gamma=2.0, alpha=0.25)
